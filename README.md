@@ -1,3 +1,5 @@
+#Automatic Ticket Classification
+
 # ![image](https://github.com/charliethomasct82/Automatic_ticket_classification/assets/93368865/22e3ad74-ed43-4449-a29e-6c360e9082a1)
 
 # Problem Statement
@@ -79,14 +81,8 @@ Created and compared 3 models on the train & test data:
 •	Random Forest
 
 # Model Summary
-
-
-
-
-
-
-
-
+![image](https://github.com/charliethomasct82/Automatic_ticket_classification/assets/93368865/000c6734-45e3-4db4-8d2b-dce10056e085)
 
 # Model Inference
+![image](https://github.com/charliethomasct82/Automatic_ticket_classification/assets/93368865/966a15da-3065-4646-9d54-b4239f6d8654)
 
