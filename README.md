@@ -1,4 +1,4 @@
-#Automatic Ticket Classification
+# Automatic Ticket Classification
 
 # ![image](https://github.com/charliethomasct82/Automatic_ticket_classification/assets/93368865/22e3ad74-ed43-4449-a29e-6c360e9082a1)
 
