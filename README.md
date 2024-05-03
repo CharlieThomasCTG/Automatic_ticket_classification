@@ -1,3 +1,5 @@
+# ![image](https://github.com/charliethomasct82/Automatic_ticket_classification/assets/93368865/22e3ad74-ed43-4449-a29e-6c360e9082a1)
+
 # Problem Statement
 Build a model that is able to classify customer complaints based on the products/services. By doing so, we can segregate these tickets into their relevant categories and, therefore, help in the quick resolution of the issue.
 we will be doing topic modelling on the .json data provided by the company. Since this data is not labelled, we need to apply NMF to analyse patterns and classify tickets into the following five clusters based on their products/services:
