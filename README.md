@@ -12,42 +12,43 @@ we will be doing topic modelling on the .json data provided by the company. Sinc
 •	Mortgages/loans
 •	Others 
 
-With the help of topic modelling, you will be able to map each ticket onto its respective department/category. We can then use this data to train any supervised model such as logistic regression, decision tree or random forest. Using this trained model, We can classify any new customer complaint support ticket into its relevant department.
+With the help of topic modelling, Each ticket was mapped onto its respective department/category. We can then use this data to train any supervised model such as logistic regression, decision tree or random forest. Using this trained model, We can classify any new customer complaint support ticket into its relevant department.
 
-## Pipelines that needs to be performed:
+## Project Pipelines:
 
-We need to perform the following eight major tasks to complete the assignment:
-1.	Data loading
-2.	Text preprocessing
-3.	Exploratory data analysis (EDA)
-4.	Feature extraction
-5.	Topic modelling 
-6.	Model building using supervised learning
-7.	Model training and evaluation
-8.	Model inference
+Performed the following eight major tasks to complete the project:
+#### 1.	Data loading
+#### 2.	Text preprocessing
+#### 3.	Exploratory data analysis (EDA)
+#### 4.	Feature extraction
+#### 5.	Topic modelling 
+#### 6.	Model building using supervised learning
+#### 7.	Model training and evaluation
+#### 8.	Model inference
 
-## Prepare the text for topic modeling
+## Prepared the text for topic modeling
 
 After we have removed all the blank complaints, performed following operations:
-•	Transformed  the text to lowercase
-•	Removed text in square brackets
-•	Removed punctuation
-•	Removed words containing numbers
-Once we have done these cleaning operations, we performed the following:
-•	Lemmatized the texts
-•	Used POS tags to get relevant words from the texts.
+#### Transformed  the text to lowercase
+#### Removed text in square brackets
+#### Removed punctuation
+#### Removed words containing numbers
+
+###Once we have done these cleaning operations, we performed the following:
+#### Lemmatized the texts
+#### Used POS tags to get relevant words from the texts.
 
 ## Exploratory data analysis to get familiar with the data.
 
-•	Visualised the data according to the 'Complaint' character length
-•	Used a word cloud find the top 40 words by frequency among all the articles after processing the text
-•	Find the top unigrams, bigrams and trigrams by frequency among all the complaints after processing the text.
+#### Visualised the data according to the 'Complaint' character length
+#### Used a word cloud find the top 40 words by frequency among all the articles after processing the text
+#### Find the top unigrams, bigrams and trigrams by frequency among all the complaints after processing the text.
 
 ## Feature Extraction
 
-•	Converted the raw texts to a matrix of TF-IDF features
-•	max_df is used for removing terms that appear too frequently, also known as "corpus-specific stop words" max_df = 0.95 means "ignore terms that appear in more than 95% of the complaints"
-•	min_df is used for removing terms that appear too infrequently min_df = 2 means "ignore terms that appear in less than 2 complaints"
+#### Converted the raw texts to a matrix of TF-IDF features
+#### max_df is used for removing terms that appear too frequently, also known as "corpus-specific stop words" max_df = 0.95 means "ignore terms that appear in more than 95% of the complaints"
+#### min_df is used for removing terms that appear too infrequently min_df = 2 means "ignore terms that appear in less than 2 complaints"
 
 ## Topic Modelling using NMF
 
